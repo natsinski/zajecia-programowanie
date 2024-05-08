@@ -77,7 +77,9 @@ Misc.
 
 
 # PD
+
 Jako że codecademy jest za paywallem to zamiast tego przejdź proszę przez ten tutorial maksymalnie do rozdziału Python Functions.
+
 https://www.w3schools.com/python/default.asp 
 
-Nie ma parcia, tutorial dość rozwięcły więc nie szkodzi jak nie dojdziesz do funkcji.
+Nie ma parcia, tutorial dość rozwięzły więc nie szkodzi jak nie dojdziesz do funkcji.
