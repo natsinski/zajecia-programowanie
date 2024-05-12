@@ -19,7 +19,7 @@ Aby zacząć trackować zmodyfikowane pliki w repozytorium używamy
 git add .
 
 ```
-Aby dodać commit czyli zapisać zmiany w historii używamy
+Aby dodać commit czyli zapisać zmiany w historii używamy
 
 ```
 git commit -m "moje zmiany"
@@ -50,7 +50,7 @@ Aby wystawić PR należy:
 
 1. Stworzyć nowy branch lokalnie (na swoim komputerze)
 2. Dodać swoje zmiany w kodzie
-3. Zacommitować swoje zmiany
+3. Zacommitować swoje zmiany
 4. Użyć komendy `git push`, która wypchnie nasz lokalny branch do repozytorium na GitHub.
 5. Na GH kliknąć przycisk Add Pull Request i wypełnić formularz
 6. Poczekać na Code Review i Approve
@@ -83,3 +83,4 @@ Jako że codecademy jest za paywallem to zamiast tego przejdź proszę przez ten
 https://www.w3schools.com/python/default.asp 
 
 Nie ma parcia, tutorial dość rozwięzły więc nie szkodzi jak nie dojdziesz do funkcji.
+
