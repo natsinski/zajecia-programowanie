@@ -1,19 +1,17 @@
 import random
-x = random.randrange(100)
 
-def user():
 
+def guessing_game():
+    random_number = random.randrange(100)
     while True:
         liczba = input("Jaka liczba twoim zdaniem została wylosowana? ")
         liczba = int(liczba)
-        print(liczba)
-        if liczba > x:
+        if liczba > random_number:
             print("Wylosowana liczba jest mniejsza!")
-        elif liczba < x:
+        elif liczba < random_number:
             print("Wylosowana liczba jest większa!")
         else:
             print("Odgadłeś liczbę!")
             break
-user()
+guessing_game()
 
-#Wykonałem, ale nie mam pojęcia czemu to działa
