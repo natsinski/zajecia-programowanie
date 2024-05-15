@@ -5,6 +5,8 @@ def guessing_game():
     random_number = random.randrange(100)
     while True:
         liczba = input("Jaka liczba twoim zdaniem została wylosowana? ")
+        if liczba.isdigit():
+            print('Yes')
         liczba = int(liczba)
         if liczba > random_number:
             print("Wylosowana liczba jest mniejsza!")
