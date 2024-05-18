@@ -8,7 +8,7 @@ def guessing_game():
         if liczba.isdigit():
             liczba = int(liczba)
             if liczba > 100:
-                print("Liczba nie należy do przedziału od 0 do 100!")
+                print("Liczba nie jest z przedziału od 0 do 100!")
             else:
                 if liczba > random_number:
                     print("Wylosowana liczba jest mniejsza!")
@@ -20,4 +20,3 @@ def guessing_game():
         else:
             print("Należy wprowadzić wpisać liczbę naturalną!")
 guessing_game()
-
